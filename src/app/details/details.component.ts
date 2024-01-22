@@ -2,7 +2,7 @@ import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { ActivatedRoute } from '@angular/router';
 import { HousingService } from '../housing.service';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -11,7 +11,7 @@ import { CommonModule } from '@angular/common';
   imports: [CommonModule,
             ReactiveFormsModule
   ],
-  template: `
+  template: ` 
   <article>
     <img class="listing-photo" [src]="housingLocation?.photo"
       alt="Exterior photo of {{housingLocation?.name}}"/>

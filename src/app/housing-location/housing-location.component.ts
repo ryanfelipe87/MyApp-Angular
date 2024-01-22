@@ -1,6 +1,6 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Housinglocation } from '../housinglocation';
+import { HousingLocation } from '../housinglocation';
 import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
 
 @Component({
@@ -17,5 +17,5 @@ import { RouterLink, RouterModule, RouterOutlet } from '@angular/router';
   styleUrl: './housing-location.component.css'
 })
 export class HousingLocationComponent {
-  @Input() housingLocation!: Housinglocation;
+  @Input() housingLocation!: HousingLocation;
 }
