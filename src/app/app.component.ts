@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   imports: [HomeComponent, CommonModule, RouterOutlet, RouterModule],
   template: `<main>
-                <a [routerLink]="['/']"]>
+                <a [routerLink]="['/']">
                   <header class="brand-name">
                   <img class="brand-logo" src="/assets/logo.svg" alt="logo" aria-hidden="true">
                   </header>
